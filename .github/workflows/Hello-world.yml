@@ -17,6 +17,8 @@ jobs:
   # This workflow contains a single job called "build"
   Hello-world:
     # The type of runner that the job will run on
+  printer:
+    name: impressoras
     runs-on: ubuntu-latest
     needs: [ hello-world ]
     # Steps represent a sequence of tasks that will be executed as part of the job
