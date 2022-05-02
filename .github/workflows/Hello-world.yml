@@ -1,7 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
 name: Hello world
-
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
@@ -34,3 +33,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+  printer:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Impressora 1
+      run: echo impressora disponivel
+      
+    - name: Impressora 2
+      run: echo impressora ocupada
+      
